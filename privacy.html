@@ -1,47 +1,205 @@
-Politique de confidentialité — AllCollect
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Politique de confidentialité de l'application AllCollect.">
+  <title>Politique de confidentialité — AllCollect</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1f2328;
+      --muted: #667085;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
 
-Dernière mise à jour : 14 septembre 2026
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1115;
+        --card: #171a21;
+        --text: #f3f4f6;
+        --muted: #a0a7b4;
+        --border: #2a2f3a;
+        --accent: #7aa2ff;
+      }
+    }
 
-AllCollect est éditée par Benoît Lorel.
+    * {
+      box-sizing: border-box;
+    }
 
-Données enregistrées
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
 
-AllCollect conserve sur votre appareil les collections, objets, champs personnalisés, photos, quantités, rappels et éléments de wishlist que vous créez.
+    .container {
+      width: min(900px, calc(100% - 32px));
+      margin: 48px auto;
+    }
 
-L’application ne contient pas de publicité et n’utilise pas de suivi publicitaire. Elle ne possède pas de serveur destiné à recevoir votre bibliothèque.
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 48px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.06);
+    }
 
-iCloud et synchronisation
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+    }
 
-La synchronisation iCloud est facultative. Si vous l’activez, vos données sont transmises à Apple et stockées dans votre compte iCloud afin d’être disponibles sur vos appareils.
+    .subtitle {
+      margin: 0 0 36px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
 
-Lorsque vous partagez une collection, les personnes invitées peuvent accéder aux données de cette collection selon les autorisations accordées. Elles peuvent conserver une copie ou un export des informations reçues.
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 10px;
+      font-size: 1.35rem;
+      line-height: 1.3;
+    }
 
-Le fonctionnement d’iCloud est également soumis à la politique de confidentialité et aux conditions d’utilisation d’Apple.
+    p {
+      margin: 0 0 16px;
+    }
 
-Photos et caméra
+    .intro {
+      font-size: 1.08rem;
+    }
 
-L’accès aux photos et à la caméra est demandé uniquement lorsque vous utilisez une fonction qui en a besoin.
+    .footer {
+      margin-top: 42px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
 
-Les photos sont utilisées pour illustrer vos objets et restent sur votre appareil ou dans votre espace iCloud si la synchronisation est activée.
+    a {
+      color: var(--accent);
+    }
 
-Le scan de code-barres recherche uniquement dans vos collections. Aucun catalogue externe n’est interrogé.
+    @media (max-width: 640px) {
+      .container {
+        margin: 20px auto;
+      }
 
-Liens et partage vers la wishlist
+      .card {
+        padding: 28px 22px;
+        border-radius: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <article class="card">
+      <h1>Politique de confidentialité — AllCollect</h1>
+      <p class="subtitle">Dernière mise à jour : 14 septembre 2026</p>
 
-Lorsque vous ajoutez un lien ou une image depuis le menu de partage, les services système peuvent contacter le site associé afin de récupérer un titre ou une image d’aperçu. Le site concerné peut alors recevoir les informations habituelles d’une connexion, notamment votre adresse IP.
+      <p class="intro">
+        AllCollect est éditée par Benoît Lorel.
+      </p>
 
-Les sites tiers sont responsables de leurs propres pratiques de confidentialité.
+      <h2>Données enregistrées</h2>
+      <p>
+        AllCollect conserve sur votre appareil les collections, objets, champs personnalisés,
+        photos, quantités, rappels et éléments de wishlist que vous créez.
+      </p>
+      <p>
+        L’application ne contient pas de publicité et n’utilise pas de suivi publicitaire.
+        Elle ne possède pas de serveur destiné à recevoir votre bibliothèque.
+      </p>
 
-Diagnostics
+      <h2>iCloud et synchronisation</h2>
+      <p>
+        La synchronisation iCloud est facultative. Si vous l’activez, vos données sont transmises
+        à Apple et stockées dans votre compte iCloud afin d’être disponibles sur vos appareils.
+      </p>
+      <p>
+        Lorsque vous partagez une collection, les personnes invitées peuvent accéder aux données
+        de cette collection selon les autorisations accordées. Elles peuvent conserver une copie
+        ou un export des informations reçues.
+      </p>
+      <p>
+        Le fonctionnement d’iCloud est également soumis à la politique de confidentialité et aux
+        conditions d’utilisation d’Apple.
+      </p>
 
-AllCollect conserve temporairement certains rapports de performance fournis par le système sur votre appareil. Ces rapports ne sont pas automatiquement envoyés à un serveur appartenant à l’éditeur.
+      <h2>Photos et caméra</h2>
+      <p>
+        L’accès aux photos et à la caméra est demandé uniquement lorsque vous utilisez une fonction
+        qui en a besoin.
+      </p>
+      <p>
+        Les photos sont utilisées pour illustrer vos objets et restent sur votre appareil ou dans
+        votre espace iCloud si la synchronisation est activée.
+      </p>
+      <p>
+        Le scan de code-barres recherche uniquement dans vos collections. Aucun catalogue externe
+        n’est interrogé.
+      </p>
 
-Les données de diagnostic que vous choisissez d’envoyer à Apple ou à l’assistance Apple sont soumises aux réglages et aux politiques d’Apple.
+      <h2>Liens et partage vers la wishlist</h2>
+      <p>
+        Lorsque vous ajoutez un lien ou une image depuis le menu de partage, les services système
+        peuvent contacter le site associé afin de récupérer un titre ou une image d’aperçu.
+      </p>
+      <p>
+        Le site concerné peut alors recevoir les informations habituelles d’une connexion,
+        notamment votre adresse IP.
+      </p>
+      <p>
+        Les sites tiers sont responsables de leurs propres pratiques de confidentialité.
+      </p>
 
-Conservation, export et suppression
+      <h2>Diagnostics</h2>
+      <p>
+        AllCollect conserve temporairement certains rapports de performance fournis par le système
+        sur votre appareil.
+      </p>
+      <p>
+        Ces rapports ne sont pas automatiquement envoyés à un serveur appartenant à l’éditeur.
+      </p>
+      <p>
+        Les données de diagnostic que vous choisissez d’envoyer à Apple ou à l’assistance Apple
+        sont soumises aux réglages et aux politiques d’Apple.
+      </p>
 
-Vous pouvez exporter vos collections depuis l’application afin de conserver une copie de vos données.
+      <h2>Conservation, export et suppression</h2>
+      <p>
+        Vous pouvez exporter vos collections depuis l’application afin de conserver une copie
+        de vos données.
+      </p>
+      <p>
+        Vous pouvez supprimer vos collections, objets, photos et autres données depuis l’application.
+      </p>
+      <p>
+        Les données synchronisées dans iCloud et les copies exportées peuvent nécessiter une
+        suppression séparée.
+      </p>
+      <p>
+        Les copies conservées par les personnes avec lesquelles une collection a été partagée
+        peuvent également rester disponibles après le retrait du partage.
+      </p>
 
-Vous pouvez supprimer vos collections, objets, photos et autres données depuis l’application. Les données synchronisées dans iCloud et les copies exportées peuvent nécessiter une suppression séparée.
-
-Les copies conservées par les personnes avec lesquelles une collection a été partagée peuvent également rester disponibles après le retrait du partage.
+      <div class="footer">
+        © 2026 Benoît Lorel — AllCollect
+      </div>
+    </article>
+  </main>
+</body>
+</html>
